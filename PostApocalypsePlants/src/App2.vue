@@ -4,9 +4,8 @@ import Lista from './components/Lista.vue'
 </script>
 
 <template>
-  <HelloWorld msg="Plantas" />
-  <HelloWorld msg="Post Apocalípticas" />
-  <Lista />
+    <HelloWorld msg="Plantas2" />
+    <Lista />
   
   
 </template>
