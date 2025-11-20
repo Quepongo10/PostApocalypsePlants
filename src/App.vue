@@ -6,9 +6,6 @@ import Lista from './components/Lista.vue'
 <template>
   <HelloWorld msg="Plantas" />
   <HelloWorld msg="Post Apocalípticas" />
-  <Lista />
-  
-  
 </template>
 
 <style scoped>
