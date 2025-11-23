@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1>Cámara 3</h1>
-        <p>Visual plantas 3</p>
+        <h1>Cámara 4</h1>
+        <p>Visual plantas 4</p>
     </div>
 </template>
 
