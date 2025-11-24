@@ -1,6 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import Lista from './components/Lista.vue'
+
 </script>
 
 <template>

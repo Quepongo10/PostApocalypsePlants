@@ -8,5 +8,7 @@
 <style scoped>
   div {
     background-color: #a7a38f;
+    height: 100vh;
+    place-content: center;
   }
 </style>
