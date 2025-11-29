@@ -23,12 +23,12 @@ const popupStyle = computed(() => {
         width: `${baseWidth + extraWidth}px`,
         height: `${baseHeight + extraHeight}px`,
         position: 'absolute',
-        backgroundColor: 'rgba(0, 0, 0, 0.7)',
+        backgroundColor: 'rgba(0, 0, 0, 0.3)',
         border: '1px solid white',
         margin: '10px',
         padding: '0px',
         bottom: `${props.bot}px`,
-        left: `${props.left}px`
+        left: `${props.left}px`,
 
     };
 });
@@ -58,7 +58,7 @@ p {
 #deco {
     width: 100%;
     height: 15px;
-    background-color: rgba(245, 222, 179, 0.795);
+    background-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
     position: absolute;
@@ -69,7 +69,7 @@ p {
     width: 13px;
     height: 13px;
     border-radius: 100%;
-    background-color: rgba(240, 240, 0, 0.89);
+    background-color: rgb(240, 240, 0);
     float: right;
     margin: 1px 5px 1px 1px;
 }
@@ -78,7 +78,7 @@ p {
     width: 13px;
     height: 13px;
     border-radius: 100%;
-    background-color: rgba(196, 0, 0, 0.89);
+    background-color: rgb(196, 0, 0);
     float: right;
     margin: 1px 5px 1px 1px
 }
