@@ -4,13 +4,16 @@
     <p>{{ temperatura }}</p>
     <p>{{ condicion }}</p>
     <p>{{ isDay }}</p>
+    <Popup title="Welcome" :content="`Relax in ${temperatura}`" />
   </div>
 </template>
 
 <script>
+import Popup from "../components/Popups.vue"; 
 import getClima from "../../public/api.js";
 
 export default {
+  components: { Popup },
   data() {
     return {
       temperatura: "Cargando...",
