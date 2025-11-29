@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Lleida</h1>
+    <h1>Lleida / España</h1>
     <p>{{ temperatura }}</p>
     <p>{{ condicion }}</p>
     <p>{{ isDay }}</p>

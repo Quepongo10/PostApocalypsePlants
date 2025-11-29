@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Rio Grande</h1>
+    <h1>Rio Grande / Argentina</h1>
     <p>{{ temperatura }}</p>
     <p>{{ condicion }}</p>
     <p>{{ isDay }}</p>
