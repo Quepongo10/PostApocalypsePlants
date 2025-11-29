@@ -1,9 +1,32 @@
 <template>
-    <div>
-        <h1>Cámara 4</h1>
-        <p>Visual plantas 4</p>
-    </div>
+  <div>
+    <h1>Rio Grande</h1>
+    <p>{{ temperatura }}</p>
+    <p>{{ condicion }}</p>
+    <p>{{ isDay }}</p>
+  </div>
 </template>
+
+<script>
+import getClima from "../../public/api.js";
+
+export default {
+  data() {
+    return {
+      temperatura: "Cargando...",
+      condicion: "Cargando..."
+    };
+  },
+
+  async mounted() {
+    const clima = await getClima({ camera: "cam4" });
+    this.temperatura = clima.temperatura;
+    this.condicion = clima.condicion;
+    this.isDay = clima.isDay;
+  }
+};
+
+</script>
 
 <style scoped>
   div {

@@ -6,7 +6,7 @@ import cam4 from '../pages/cam4.vue'
 import cam5 from '../pages/cam5.vue'
 
 const routes = [
-  { path: '/', component: cam1 },
+  { path: '/cam1', component: cam1 },
   { path: '/cam2', component: cam2 },
   { path: '/cam3', component: cam3 },
   { path: '/cam4', component: cam4 },

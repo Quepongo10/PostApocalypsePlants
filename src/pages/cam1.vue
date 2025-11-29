@@ -1,14 +1,37 @@
 <template>
   <div>
-    <h1>Cámara 1</h1>
-    <p>Visual plantas 1</p>
+    <h1>Lleida</h1>
+    <p>{{ temperatura }}</p>
+    <p>{{ condicion }}</p>
+    <p>{{ isDay }}</p>
   </div>
 </template>
 
-<style scoped>
-  div {
-    background-color: #94a78f;
-    height: 100vh;
-    place-content: center;
+<script>
+import getClima from "../../public/api.js";
+
+export default {
+  data() {
+    return {
+      temperatura: "Cargando...",
+      condicion: "Cargando..."
+    };
+  },
+
+  async mounted() {
+    const clima = await getClima({ camera: "cam1" });
+    this.temperatura = clima.temperatura;
+    this.condicion = clima.condicion;
+    this.isDay = clima.isDay;
   }
+};
+
+</script>
+
+<style scoped>
+div {
+  background-color: #a78f8f;
+  height: 100vh;
+  place-content: center;
+}
 </style>
