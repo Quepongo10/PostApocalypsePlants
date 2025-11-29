@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Nueva Zelanda</h1>
+    <h1>Christchurch / Nueva Zelanda</h1>
     <p>{{ temperatura }}</p>
     <p>{{ condicion }}</p>
     <p>{{ isDay }}</p>

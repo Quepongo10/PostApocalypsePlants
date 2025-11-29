@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Malasia</h1>
+    <h1>Kuala Lumpur / Malasia</h1>
     <p>{{ temperatura }}</p>
     <p>{{ condicion }}</p>
     <p>{{ isDay }}</p>

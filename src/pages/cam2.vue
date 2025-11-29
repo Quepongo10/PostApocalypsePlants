@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Burkina Faso</h1>
+    <h1>Ouagadougou / Burkina Faso</h1>
     <p>{{ temperatura }}</p>
     <p>{{ condicion }}</p>
     <p>{{ isDay }}</p>
