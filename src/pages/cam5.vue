@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Christchurch / Nueva Zelanda</h1>
-    <p>{{ temperatura }}</p>
+    <temperatura :grados="temperatura" />
     <p>{{ condicion }}</p>
     <p>{{ isDay }}</p>
   </div>
@@ -9,12 +9,17 @@
 
 <script>
 import getClima from "../../public/api.js";
+import temperatura from "../components/temperatura.vue";
 
 export default {
+  components: {
+    temperatura
+  },
   data() {
     return {
       temperatura: "Cargando...",
-      condicion: "Cargando..."
+      condicion: "Cargando...",
+      isDay: "Cargando..."
     };
   },
 

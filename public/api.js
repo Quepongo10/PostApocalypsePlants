@@ -4,7 +4,7 @@ export default async function getClima(opts = {}) {
     cam2: { lat: 12.368187, lon: -1.527094 }, // Ouagadougou/Burkina Faso
     cam3: { lat: 3.152659, lon: 101.702221 }, // Kuala Lumpur/Malasia
     cam4: { lat: -53.785441, lon: -67.916667 }, // Rio Grande/Argentina
-    cam5: { lat: -43.5276, lon: 172.637 }, // christchurch/Nueva Zelanda
+    cam5: { lat: -43.5276, lon: 172.637 }, // Christchurch/Nueva Zelanda
   };
   const url = `https://api.open-meteo.com/v1/forecast?latitude=${cameras[opts.camera].lat}&longitude=${cameras[opts.camera].lon}&current=temperature_2m,is_day,weather_code`;
 
