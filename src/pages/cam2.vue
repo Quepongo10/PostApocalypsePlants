@@ -5,7 +5,7 @@
     <p>{{ condicion }}</p>
     <p>{{ isDay }}</p>
     <Popup title="Welcome" :content="`Relax in ${temperatura}`" :bot="0" :left="0" />
-    <Popup title="Welcome" :content="`Relax in ${temperatura}`" :bot="500" :left="1000" />
+    <Popup title="Welcome" :content="'lorem ipsum dolor amet asdasdasdad asd as das as a dsdadasdasd as d asdasd a dsdadasda'" :bot="500" :left="1000" />
   </div>
 </template>
 

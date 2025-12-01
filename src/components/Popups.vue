@@ -29,6 +29,7 @@ const popupStyle = computed(() => {
         padding: '0px',
         bottom: `${props.bot}px`,
         left: `${props.left}px`,
+        backdropFilter: 'blur(5px)',
 
     };
 });
@@ -53,6 +54,7 @@ h1 {
 
 p {
     font-size: 16px;
+    margin: 0px 5px 0px 5px;
 }
 
 #deco {
