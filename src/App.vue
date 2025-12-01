@@ -16,5 +16,7 @@
 </template>
 
 <style scoped>
-
+nav {
+  z-index: 1000;
+}
 </style>

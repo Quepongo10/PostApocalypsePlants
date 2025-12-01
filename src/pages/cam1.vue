@@ -1,5 +1,7 @@
 <template>
-  <div>
+  <div class="overlay">
+  </div>
+  <div class="fondo">
     <h1>Lleida / España</h1>
     <temperatura :grados="temperatura" />
     <p>{{ condicion }}</p>
@@ -9,6 +11,7 @@
     <Popup title="Welcome" :content="`Relax in ${temperatura}`" :bot="400" :left="340" />
     <Popup title="Welcome" :content="`Quepongo*`" :bot="350" :left="360" />
   </div>
+
 </template>
 
 <script>
@@ -38,9 +41,18 @@ export default {
 </script>
 
 <style scoped>
-div {
-  background-color: #a78f8f;
+.fondo {
+  background-color: #808080;
   height: 100vh;
   place-content: center;
+
+}
+
+.overlay {
+  position: absolute;
+  background-color: #966c6c;
+  height: 100%;
+  width: 100%;
+  mix-blend-mode: overlay;
 }
 </style>
