@@ -1,0 +1,93 @@
+{
+    "camara": [
+        {
+            "place": "Lleida",
+            "plants": [
+                {
+                    "name": "Chenopodium vulvaria inflorescense",
+                    "url": ""
+                },
+                {
+                    "name": "Hieracium pilosella",
+                    "url": ""
+                },
+                {
+                    "name": "Chenopodium Vulvaria Inflorescense",
+                    "url": ""
+                },
+                {
+                    "name": "Muscari neglectum",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "place": "Ouagadougou",
+            "plants": [
+                {
+                    "name": "Palisandro",
+                    "url": ""
+                },
+                {
+                    "name": "Rapito peludo",
+                    "url": ""
+                },
+                {
+                    "name": "Mijo perla",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "place": "Kuala Lumpur",
+            "plants": [
+                {
+                    "name": "Ixora",
+                    "url": ""
+                },
+                {
+                    "name": "Margarita rastrera",
+                    "url": ""
+                },
+                {
+                    "name": "Albahaca",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "place": "Rio Grande",
+            "plants": [
+                {
+                    "name": "Espuela de Caballero",
+                    "url": ""
+                },
+                {
+                    "name": "Brezo",
+                    "url": ""
+                },
+                {
+                    "name": "Singonio",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "place": "Christchurch",
+            "plants": [
+                {
+                    "name": "Espuela de Caballero",
+                    "url": ""
+                },
+                {
+                    "name": "Brezo",
+                    "url": ""
+                },
+                {
+                    "name": "Singonio",
+                    "url": ""
+                }
+            ]
+        }
+    ]
+}
