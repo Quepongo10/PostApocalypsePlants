@@ -50,7 +50,7 @@ export default {
 
 .overlay {
   position: absolute;
-  background-color: #966c6c;
+  background-image: url("../assets/filtro dia.png");
   height: 100%;
   width: 100%;
   mix-blend-mode: overlay;
