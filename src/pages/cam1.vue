@@ -1,6 +1,6 @@
 <template>
-  <div class="overlay">
-  </div>
+  <div class="overlay" :style="overlayStyle"></div>
+
   <div class="fondo">
     <h1>Lleida / España</h1>
     <temperatura :grados="temperatura" />
@@ -19,6 +19,8 @@ import Popup from "../components/Popups.vue";
 import getClima from "../../public/api.js";
 import temperatura from "../components/temperatura.vue";
 
+import getFiltro from "../../public/aplicación-filtro.js";
+
 
 export default {
   components: { temperatura, Popup },
@@ -26,8 +28,22 @@ export default {
     return {
       temperatura: "Cargando...",
       condicion: "Cargando...",
-      isDay: "Cargando..."
+      isDay: "Cargando...",
+
+      overlayFile: null
     };
+  },
+
+  computed: {
+    overlayStyle() {
+    if (!this.overlayFile) return {};
+    return {
+      backgroundImage: `url('../assets/${this.overlayFile}')`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      mixBlendMode: 'overlay'
+    }
+    },
   },
 
   async mounted() {
@@ -35,9 +51,10 @@ export default {
     this.temperatura = clima.temperatura;
     this.condicion = clima.condicion;
     this.isDay = clima.isDay;
-  }
-};
 
+    this.overlayFile = await getFiltro(this.condicion, this.isDay);
+  }
+}
 </script>
 
 <style scoped>
@@ -50,9 +67,7 @@ export default {
 
 .overlay {
   position: absolute;
-  background-image: url("../assets/filtro dia.png");
   height: 100%;
   width: 100%;
-  mix-blend-mode: overlay;
 }
 </style>
