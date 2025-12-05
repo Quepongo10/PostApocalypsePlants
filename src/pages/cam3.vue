@@ -1,5 +1,7 @@
 <template>
-  <div>
+  <div class="overlay" :style="overlayStyle"></div>
+
+  <div class="fondo">
     <h1>Kuala Lumpur / Malasia</h1>
     <temperatura :grados="temperatura" />
     <p>{{ condicion }}</p>
@@ -12,31 +14,57 @@
 import Popup from "../components/Popups.vue";
 import getClima from "../../public/api.js";
 import temperatura from "../components/temperatura.vue";
+import getFiltro from "../../public/aplicación-filtro.js";
 
 export default {
   components: { temperatura, Popup },
+
   data() {
     return {
       temperatura: "Cargando...",
       condicion: "Cargando...",
-      isDay: "Cargando..."
+      isDay: "Cargando...",
+      overlayFile: null
     };
   },
+
+  computed: {
+  overlayStyle() {
+    if (!this.overlayFile) return {};
+    return {
+      backgroundImage: `url('/src/assets/filtros/${this.overlayFile}')`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      mixBlendMode: 'overlay'
+    };
+  }
+},
 
   async mounted() {
     const clima = await getClima({ camera: "cam3" });
     this.temperatura = clima.temperatura;
     this.condicion = clima.condicion;
     this.isDay = clima.isDay;
+
+    this.overlayFile = await getFiltro(this.condicion, this.isDay);
   }
 };
-
 </script>
 
 <style scoped>
-  div {
-    background-color: #a48fa7;
-    height: 100vh;
-    place-content: center;
-  }
+.fondo {
+  background-color: #808080;
+  height: 100vh;
+  place-content: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  z-index: 5;
+}
 </style>

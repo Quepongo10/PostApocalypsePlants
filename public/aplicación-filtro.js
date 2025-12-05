@@ -10,4 +10,6 @@ export default async function getFiltro(condicion, estado) {
     if (match) {
         return match.archivo;
     }
+    
+    return "efectos-pantalla-despejado-dia.png";
 }
