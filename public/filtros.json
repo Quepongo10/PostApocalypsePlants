@@ -23,6 +23,11 @@
         },
 
         {
+        "tiempo": "Parcialmente nublado",
+        "estado": "Día",
+        "archivo": "efectos-pantalla-nublado-dia.png"
+        },
+        {
         "tiempo": "Nublado",
         "estado": "Día",
         "archivo": "efectos-pantalla-nublado-dia.png"
@@ -38,6 +43,11 @@
         "archivo": "efectos-pantalla-nublado-dia.png"
         },
 
+        {
+        "tiempo": "Parcialmente nublado",
+        "estado": "Noche",
+        "archivo": "efectos-pantalla-nublado-noche.png"
+        },
         {
         "tiempo": "Nublado",
         "estado": "Noche",
