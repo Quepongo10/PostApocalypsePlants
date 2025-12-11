@@ -1,5 +1,5 @@
 export default async function getFiltro(condicion, estado) {
-    const res = await fetch('/filtros.json');
+    const res = await fetch('/PostApocalypsePlants/filtros.json');
     const json = await res.json();
     const filtros = json.filtros || [];
 
