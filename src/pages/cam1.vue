@@ -58,7 +58,7 @@ async mounted() {
 
 <style scoped>
 .fondo {
-  background-color: #808080;
+  background-image: url('../assets/fondos/Plantas.png');
   height: 100vh;
   place-content: center;
 }
