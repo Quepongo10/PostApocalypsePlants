@@ -14,8 +14,6 @@ const props = defineProps({
     },
 });
 
-const visible = ref(true);
-
 const popupStyle = computed(() => {
     const baseWidth = 200;
     const extraWidth = (props.title?.length || 0) * 16;
@@ -35,15 +33,20 @@ const popupStyle = computed(() => {
     };
 });
 
+const visible = ref(true);
+let contadorsec = null;
+
 function popupdelete() {
     visible.value = false;
-    n=15;
-    if (visible.value === false){
-        n=n-1;
+    if (contadorsec) {
+        clearTimeout(contadorsec);
+        contadorsec = null;
     }
-    else{
+
+    contadorsec = setTimeout(() => {
         visible.value = true;
-    }
+        contadorsec = null;
+    }, 7000);
 }
 </script>
 
