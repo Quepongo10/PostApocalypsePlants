@@ -1,20 +1,22 @@
 <script setup>
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
+
 const props = defineProps({
     title: String,
     content: String,
     bot: {
         type: Number,
-        default: 0
+        default: 0,
     },
     left: {
         type: Number,
-        default: 0
-    }
+        default: 0,
+    },
 });
 
+const visible = ref(true);
+
 const popupStyle = computed(() => {
-    // Ejemplo: ancho base 150px + 8px por caracter
     const baseWidth = 200;
     const extraWidth = (props.title?.length || 0) * 16;
     const extraHeight = (props.content?.length || 0) * 1;
@@ -30,25 +32,16 @@ const popupStyle = computed(() => {
         bottom: `${props.bot}px`,
         left: `${props.left}px`,
         backdropFilter: 'blur(5px)',
-
     };
 });
 
 function popupdelete() {
-    popup.style.display = 'none';
-
-    var n = 15;
-    if(n==0){
-        n=0;
-        popup.style.display = 'block';
-    else{
-        n--;
-    }
+    visible.value = false;
 }
 </script>
 
 <template>
-    <div class="popup" :style="popupStyle" onclick="popupdelete()">
+    <div v-if="visible" class="popup" :style="popupStyle" @click="popupdelete">
         <div id="deco">
             <div id="red"></div>
             <div id="yellow"></div>
