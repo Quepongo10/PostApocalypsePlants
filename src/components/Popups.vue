@@ -33,10 +33,22 @@ const popupStyle = computed(() => {
 
     };
 });
+
+function popupdelete() {
+    popup.style.display = 'none';
+
+    var n = 15;
+    if(n==0){
+        n=0;
+        popup.style.display = 'block';
+    else{
+        n--;
+    }
+}
 </script>
 
 <template>
-    <div class="popup" :style="popupStyle">
+    <div class="popup" :style="popupStyle" onclick="popupdelete()">
         <div id="deco">
             <div id="red"></div>
             <div id="yellow"></div>
