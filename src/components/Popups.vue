@@ -24,7 +24,7 @@ const popupStyle = computed(() => {
         height: `${baseHeight + extraHeight}px`,
         position: 'absolute',
         backgroundColor: 'rgba(0, 0, 0, 0.3)',
-        border: '1px solid white',
+        border: '2px solid rgba(255, 255, 255, 0.4)',
         margin: '10px',
         padding: '0px',
         bottom: `${props.bot}px`,
