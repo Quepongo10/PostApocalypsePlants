@@ -13,7 +13,7 @@ const routes = [
   { path: '/cam5', component: cam5 }
 ]
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes
 })
 export default router
