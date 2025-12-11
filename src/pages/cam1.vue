@@ -20,7 +20,6 @@ import temperatura from "../components/temperatura.vue";
 import getClima from "../../public/api.js";
 import getFiltro from "../../public/aplicación-filtro.js";
 
-
 export default {
   components: { temperatura, Popup },
 

@@ -41,17 +41,14 @@ function popupdelete() {
     if(n==0){
         n=0;
         popup.style.display = 'block';
-    }
     else{
         n--;
     }
-
 }
-
 </script>
 
 <template>
-    <div class="popup" :style="popupStyle" @click="popupdelete()">
+    <div class="popup" :style="popupStyle" onclick="popupdelete()">
         <div id="deco">
             <div id="red"></div>
             <div id="yellow"></div>
