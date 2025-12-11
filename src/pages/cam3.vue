@@ -32,7 +32,7 @@ export default {
   overlayStyle() {
     if (!this.overlayFile) return {};
     return {
-      backgroundImage: `url('/src/assets/filtros/${this.overlayFile}')`,
+      backgroundImage: `url('./src/assets/filtros/${this.overlayFile}')`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       mixBlendMode: 'overlay'

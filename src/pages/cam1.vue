@@ -20,6 +20,7 @@ import temperatura from "../components/temperatura.vue";
 import getClima from "../../public/api.js";
 import getFiltro from "../../public/aplicación-filtro.js";
 
+
 export default {
   components: { temperatura, Popup },
 
@@ -36,7 +37,7 @@ export default {
   overlayStyle() {
     if (!this.overlayFile) return {};
     return {
-      backgroundImage: `url('/src/assets/filtros/${this.overlayFile}')`,
+      backgroundImage: `url('./src/assets/filtros/${this.overlayFile}')`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       mixBlendMode: 'overlay'
