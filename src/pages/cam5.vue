@@ -6,12 +6,12 @@
     <temperatura :grados="temperatura" />
     <p>{{ condicion }}</p>
     <p>{{ isDay }}</p>
-    <Popup title="Welcome" :content="`Relax in ${temperatura}`" />
+    <Popup title="Christchurch" :content="`Estado: ${condicion}, ${temperatura}`" :bot="var1" :left="var2" @click="movePopup" />
   </div>
 </template>
 
 <script>
-import Popup from "../components/Popups.vue";
+import Popup from "../components/Popups2.vue";
 import temperatura from "../components/temperatura.vue";
 import getClima from "../../public/api.js";
 import getFiltro from "../../public/aplicación-filtro.js";
@@ -24,7 +24,10 @@ export default {
       temperatura: "Cargando...",
       condicion: "Cargando...",
       isDay: "Cargando...",
-      overlayFile: null
+      overlayFile: null,
+
+      var1: 500,
+      var2: 300,
     };
   },
 
@@ -47,8 +50,16 @@ async mounted() {
   this.isDay = clima.isDay;
 
   this.overlayFile = await getFiltro(this.condicion, this.isDay);
+},
+
+
+ methods: {
+    movePopup() {
+      this.var1 = Math.floor(Math.random() * 400);
+      this.var2 = Math.floor(Math.random() * 800);
+    }
+  }
 }
-};
 </script>
 
 <style scoped>

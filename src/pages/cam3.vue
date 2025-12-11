@@ -6,7 +6,7 @@
     <temperatura :grados="temperatura" />
     <p>{{ condicion }}</p>
     <p>{{ isDay }}</p>
-    <Popup title="Welcome" :content="`Relax in ${temperatura}`" />
+    <Popup title="Kuala Lumpur" :content="`Estado: ${condicion}, ${temperatura}`" />
   </div>
 </template>
 

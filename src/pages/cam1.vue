@@ -7,10 +7,10 @@
     <p>{{ condicion }}</p>
     <p>{{ isDay }}</p>
 
-    <Popup title="Welcome" :content="`Relax in ${temperatura}`" :bot="500" :left="300" />
-    <Popup title="Welcome" :content="`Relax in ${temperatura}`" :bot="450" :left="320" />
-    <Popup title="Welcome" :content="`Relax in ${temperatura}`" :bot="400" :left="340" />
-    <Popup title="Welcome" :content="`Quepongo*`" :bot="350" :left="360" />
+    <Popup title="Lleida" :content="`Estado: ${condicion}, ${temperatura}`" :bot="500" :left="300" />
+    <Popup title="Lleida" :content="`Estado: ${condicion}, ${temperatura}`" :bot="450" :left="320" />
+    <Popup title="Lleida" :content="`Estado: ${condicion}, ${temperatura}`" :bot="400" :left="340" />
+    <Popup title="Lleida" :content="`Estado: ${condicion}, ${temperatura}`" :bot="350" :left="360" />
   </div>
 </template>
 
