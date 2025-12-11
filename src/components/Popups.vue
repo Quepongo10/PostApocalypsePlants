@@ -37,6 +37,13 @@ const popupStyle = computed(() => {
 
 function popupdelete() {
     visible.value = false;
+    n=15;
+    if (visible.value === false){
+        n=n-1;
+    }
+    else{
+        visible.value = true;
+    }
 }
 </script>
 
