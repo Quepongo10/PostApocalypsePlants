@@ -55,8 +55,8 @@ async mounted() {
 
  methods: {
     movePopup() {
-      this.var1 = Math.floor(Math.random() * 400);
-      this.var2 = Math.floor(Math.random() * 800);
+      this.var1 = Math.floor(Math.random() * 700);
+      this.var2 = Math.floor(Math.random() * 1300);
     }
   }
 }
