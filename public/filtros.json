@@ -3,159 +3,195 @@
         {
         "tiempo": "Despejado",
         "estado": "Día",
-        "archivo": "efectos-pantalla-despejado-dia.png"
+        "archivo": "efectos-pantalla-despejado-dia.png",
+        "fondo": "fondo-despejado-dia.png"
         },
         {
         "tiempo": "Mayormente despejado",
         "estado": "Día",
-        "archivo": "efectos-pantalla-despejado-dia.png"
+        "archivo": "efectos-pantalla-despejado-dia.png",
+        "fondo": "fondo-despejado-dia.png"
         },
 
         {
         "tiempo": "Despejado",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-despejado-noche.png"
+        "archivo": "efectos-pantalla-despejado-noche.png",
+        "fondo": "fondo-despejado-noche.png"
         },
         {
         "tiempo": "Mayormente despejado",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-despejado-noche.png"
+        "archivo": "efectos-pantalla-despejado-noche.png",
+        "fondo": "fondo-despejado-noche.png"
         },
 
         {
         "tiempo": "Parcialmente nublado",
         "estado": "Día",
-        "archivo": "efectos-pantalla-nublado-dia.png"
+        "archivo": "efectos-pantalla-nublado-dia.png",
+        "fondo": "fondo-nublado-dia.png"
         },
         {
         "tiempo": "Nublado",
         "estado": "Día",
-        "archivo": "efectos-pantalla-nublado-dia.png"
+        "archivo": "efectos-pantalla-nublado-dia.png",
+        "fondo": "fondo-nublado-dia.png"
         },
         {
         "tiempo": "Niebla",
         "estado": "Día",
-        "archivo": "efectos-pantalla-nublado-dia.png"
+        "archivo": "efectos-pantalla-nublado-dia.png",
+        "fondo": "fondo-nublado-dia.png"
         },
         {
         "tiempo": "Niebla con escarcha",
         "estado": "Día",
-        "archivo": "efectos-pantalla-nublado-dia.png"
+        "archivo": "efectos-pantalla-nublado-dia.png",
+        "fondo": "fondo-nublado-dia.png"
         },
 
         {
         "tiempo": "Parcialmente nublado",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-nublado-noche.png"
+        "archivo": "efectos-pantalla-nublado-noche.png",
+        "fondo": "fondo-nublado-noche.png"
         },
         {
         "tiempo": "Nublado",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-nublado-noche.png"
+        "archivo": "efectos-pantalla-nublado-noche.png",
+        "fondo": "fondo-nublado-noche.png"
         },
         {
         "tiempo": "Niebla",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-nublado-noche.png"
+        "archivo": "efectos-pantalla-nublado-noche.png",
+        "fondo": "fondo-nublado-noche.png"
         },
         {
         "tiempo": "Niebla con escarcha",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-nublado-noche.png"
+        "archivo": "efectos-pantalla-nublado-noche.png",
+        "fondo": "fondo-nublado-noche.png"
         },
 
         {
         "tiempo": "Llovizna ligera",
         "estado": "Día",
-        "archivo": "efectos-pantalla-lluvia-dia.png"
+        "archivo": "efectos-pantalla-lluvia-dia.png",
+        "fondo": "fondo-lluvia-dia.gif"
         },
         {
         "tiempo": "Llovizna moderada",
         "estado": "Día",
-        "archivo": "efectos-pantalla-lluvia-dia.png"
+        "archivo": "efectos-pantalla-lluvia-dia.png",
+        "fondo": "fondo-lluvia-dia.gif"
         },
         {
         "tiempo": "Llovizna intensa",
         "estado": "Día",
-        "archivo": "efectos-pantalla-lluvia-dia.png"
+        "archivo": "efectos-pantalla-lluvia-dia.png",
+        "fondo": "fondo-lluvia-dia.gif"
         },
         {
         "tiempo": "Lluvia ligera",
         "estado": "Día",
-        "archivo": "efectos-pantalla-lluvia-dia.png"
+        "archivo": "efectos-pantalla-lluvia-dia.png",
+        "fondo": "fondo-lluvia-dia.gif"
         },
         {
         "tiempo": "Lluvia moderada",
         "estado": "Día",
-        "archivo": "efectos-pantalla-lluvia-dia.png"
+        "archivo": "efectos-pantalla-lluvia-dia.png",
+        "fondo": "fondo-lluvia-dia.gif"
         },
         {
         "tiempo": "Lluvia fuerte",
         "estado": "Día",
-        "archivo": "efectos-pantalla-lluvia-dia.png"
+        "archivo": "efectos-pantalla-lluvia-dia.png",
+        "fondo": "fondo-lluvia-dia.gif"
         },
 
         {
         "tiempo": "Llovizna ligera",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-lluvia-noche.png"
+        "archivo": "efectos-pantalla-lluvia-noche.png",
+        "fondo": "fondo-lluvia-noche.gif"
+        },
+        {
         },
         {
         "tiempo": "Llovizna moderada",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-lluvia-noche.png"
+        "archivo": "efectos-pantalla-lluvia-noche.png",
+        "fondo": "fondo-lluvia-noche.gif"
         },
         {
         "tiempo": "Llovizna intensa",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-lluvia-noche.png"
+        "archivo": "efectos-pantalla-lluvia-noche.png",
+        "fondo": "fondo-lluvia-noche.gif"
         },
         {
         "tiempo": "Lluvia ligera",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-lluvia-noche.png"
+        "archivo": "efectos-pantalla-lluvia-noche.png",
+        "fondo": "fondo-lluvia-noche.gif"
+        },
+        {
         },
         {
         "tiempo": "Lluvia moderada",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-lluvia-noche.png"
+        "archivo": "efectos-pantalla-lluvia-noche.png",
+        "fondo": "fondo-lluvia-noche.gif"
+        },
+        {
         },
         {
         "tiempo": "Lluvia fuerte",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-lluvia-noche.png"
+        "archivo": "efectos-pantalla-lluvia-noche.png",
+        "fondo": "fondo-lluvia-noche.gif"
         },
 
         {
         "tiempo": "Chubascos ligeros",
         "estado": "Día",
-        "archivo": "efectos-pantalla-tormenta-dia.png"
+        "archivo": "efectos-pantalla-tormenta-dia.png",
+        "fondo": "fondo-tormenta-dia.gif"
         },
         {
         "tiempo": "Chubascos moderados",
         "estado": "Día",
-        "archivo": "efectos-pantalla-tormenta-dia.png"
+        "archivo": "efectos-pantalla-tormenta-dia.png",
+        "fondo": "fondo-tormenta-dia.gif"
         },
         {
         "tiempo": "Chubascos violentos",
         "estado": "Día",
-        "archivo": "efectos-pantalla-tormenta-dia.png"
+        "archivo": "efectos-pantalla-tormenta-dia.png",
+        "fondo": "fondo-tormenta-dia.gif"
         },
         
        {
         "tiempo": "Chubascos ligeros",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-tormenta-noche.png"
+        "archivo": "efectos-pantalla-tormenta-noche.png",
+        "fondo": "fondo-tormenta-noche.gif"
         },
         {
         "tiempo": "Chubascos moderados",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-tormenta-noche.png"
+        "archivo": "efectos-pantalla-tormenta-noche.png",
+        "fondo": "fondo-tormenta-noche.gif"
         },
         {
         "tiempo": "Chubascos violentos",
         "estado": "Noche",
-        "archivo": "efectos-pantalla-tormenta-noche.png"
+        "archivo": "efectos-pantalla-tormenta-noche.png",
+        "fondo": "fondo-tormenta-noche.gif"
         }
     ]
 }

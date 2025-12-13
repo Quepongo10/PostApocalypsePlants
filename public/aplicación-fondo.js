@@ -1,4 +1,4 @@
-export default async function getFiltro(condicion, estado) {
+export default async function getFondo(condicion, estado) {
     const res = await fetch('/PostApocalypsePlants/filtros.json');
     const json = await res.json();
     const filtros = json.filtros || [];
@@ -8,9 +8,8 @@ export default async function getFiltro(condicion, estado) {
     );
 
     if (match) {
-        return match.archivo;
+        return match.fondo;
     }
-    
-    return "efectos-pantalla-despejado-dia.png";
-}
 
+    return "fondo-despejado-dia.png";
+}
