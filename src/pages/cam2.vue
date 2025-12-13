@@ -2,9 +2,6 @@
   <div class="overlay" :style="overlayStyle"></div>
   <div class="fondo" :style="fondoStyle">
     <h1>Ouagadougou / Burkina Faso</h1>
-    <temperatura :grados="temperatura" />
-    <p>{{ condicion }}</p>
-    <p>{{ isDay }}</p>
 
     <Popup title="Ouagadougou" :content="`Estado: ${condicion}, ${temperatura}`" :bot="0" :left="0" />
     <Popup title="Ouagadougou" :content="`Estado: ${condicion}, ${temperatura}`" :bot="500" :left="1000" />
@@ -19,7 +16,7 @@ import getFiltro from "../../public/aplicación-filtro.js";
 import getFondo from "../../public/aplicación-fondo.js";
 
 export default {
-  components: { temperatura, Popup },
+  components: {Popup },
 
   data() {
     return {
@@ -77,5 +74,9 @@ export default {
   width: 100%;
   pointer-events: none;
   z-index: 5;
+}
+
+h1 {
+  display: none;
 }
 </style>

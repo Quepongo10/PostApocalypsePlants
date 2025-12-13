@@ -3,9 +3,6 @@
 
   <div class="fondo" :style="fondoStyle">
     <h1>Kuala Lumpur / Malasia</h1>
-    <temperatura :grados="temperatura" />
-    <p>{{ condicion }}</p>
-    <p>{{ isDay }}</p>
     <Popup title="Kuala Lumpur" :content="`Estado: ${condicion}, ${temperatura}`" />
   </div>
 </template>
@@ -18,7 +15,7 @@ import getFiltro from "../../public/aplicación-filtro.js";
 import getFondo from "../../public/aplicación-fondo.js";
 
 export default {
-  components: { temperatura, Popup },
+  components: {Popup },
 
   data() {
     return {
@@ -76,5 +73,9 @@ export default {
   width: 100%;
   pointer-events: none;
   z-index: 5;
+}
+
+h1 {
+  display: none;
 }
 </style>

@@ -3,9 +3,6 @@
 
   <div class="fondo" :style="fondoStyle">
     <h1>Lleida / España</h1>
-    <temperatura :grados="temperatura" />
-    <p>{{ condicion }}</p>
-    <p>{{ isDay }}</p>
 
     <Popup title="Lleida" :content="`Estado: ${condicion}, ${temperatura}`" :bot="500" :left="300" />
     <Popup title="Lleida" :content="`Estado: ${condicion}, ${temperatura}`" :bot="450" :left="320" />
@@ -23,7 +20,7 @@ import getFondo from "../../public/aplicación-fondo.js";
 
 
 export default {
-  components: { temperatura, Popup },
+  components: {Popup },
 
   data() {
     return {
@@ -81,5 +78,9 @@ async mounted() {
   width: 100%;
   pointer-events: none;
   z-index: 5;
+}
+
+h1 {
+  display: none;
 }
 </style>

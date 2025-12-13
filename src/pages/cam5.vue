@@ -3,9 +3,7 @@
 
   <div class="fondo" :style="fondoStyle">
     <h1>Christchurch / Nueva Zelanda</h1>
-    <temperatura :grados="temperatura" />
-    <p>{{ condicion }}</p>
-    <p>{{ isDay }}</p>
+
     <Popup title="Christchurch" :content="`Estado: ${condicion}, ${temperatura}`" :bot="var1" :left="var2" @click="movePopup" />
   </div>
 </template>
@@ -18,7 +16,7 @@ import getFiltro from "../../public/aplicación-filtro.js";
 import getFondo from "../../public/aplicación-fondo.js";
 
 export default {
-  components: { temperatura, Popup },
+  components: {Popup },
 
   data() {
     return {
@@ -87,5 +85,9 @@ async mounted() {
   width: 100%;
   pointer-events: none;
   z-index: 5;
+}
+
+h1 {
+  display: none;
 }
 </style>

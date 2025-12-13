@@ -3,9 +3,7 @@
   
   <div class="fondo" :style="fondoStyle">
     <h1>Rio Grande / Argentina</h1>
-    <temperatura :grados="temperatura" />
-    <p>{{ condicion }}</p>
-    <p>{{ isDay }}</p>
+
     <Popup title="Rio Grande" :content="`Estado: ${condicion}, ${temperatura}`" />
   </div>
 </template>
@@ -18,7 +16,7 @@ import getFiltro from "../../public/aplicación-filtro.js";
 import getFondo from "../../public/aplicación-fondo.js";
 
 export default {
-  components: { temperatura, Popup },
+  components: {Popup },
 
   data() {
     return {
@@ -76,5 +74,9 @@ async mounted() {
   width: 100%;
   pointer-events: none;
   z-index: 5;
+}
+
+h1 {
+  display: none;
 }
 </style>
