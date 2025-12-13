@@ -13,4 +13,3 @@ export default async function getFiltro(condicion, estado) {
     
     return "efectos-pantalla-despejado-dia.png";
 }
-

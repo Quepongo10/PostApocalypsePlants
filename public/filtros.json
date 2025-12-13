@@ -120,8 +120,6 @@
         "fondo": "fondo-lluvia-noche.gif"
         },
         {
-        },
-        {
         "tiempo": "Llovizna moderada",
         "estado": "Noche",
         "archivo": "efectos-pantalla-lluvia-noche.png",
@@ -140,14 +138,10 @@
         "fondo": "fondo-lluvia-noche.gif"
         },
         {
-        },
-        {
         "tiempo": "Lluvia moderada",
         "estado": "Noche",
         "archivo": "efectos-pantalla-lluvia-noche.png",
         "fondo": "fondo-lluvia-noche.gif"
-        },
-        {
         },
         {
         "tiempo": "Lluvia fuerte",
