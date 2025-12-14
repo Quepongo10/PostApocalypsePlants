@@ -46,6 +46,11 @@ const popupStyle = computed(() => {
 </template>
 
 <style scoped>
+.popup {
+    cursor: pointer;
+    z-index: 5;
+}
+
 h1 {
     font-size: 20px;
     margin-top: 15px;

@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import home from '../pages/home.vue'
 import cam1 from '../pages/cam1.vue'
 import cam2 from '../pages/cam2.vue'
 import cam3 from '../pages/cam3.vue'
@@ -6,6 +7,7 @@ import cam4 from '../pages/cam4.vue'
 import cam5 from '../pages/cam5.vue'
 
 const routes = [
+  { path: '/', component: home },
   { path: '/cam1', component: cam1 },
   { path: '/cam2', component: cam2 },
   { path: '/cam3', component: cam3 },

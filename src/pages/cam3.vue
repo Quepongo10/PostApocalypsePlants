@@ -5,6 +5,13 @@
     <h1>Kuala Lumpur / Malasia</h1>
     <Popup title="Kuala Lumpur" :content="`Estado: ${condicion}, ${temperatura}`" />
   </div>
+  <div class="planta1"><img src="../assets/flores/planta-kualalumpur-1.png" alt="Planta Kualalumpur 1"></div>
+  <div class="planta2"><img src="../assets/flores/planta-kualalumpur-1.png" alt="Planta Kualalumpur 1"></div>
+  <div class="planta3"><img src="../assets/flores/planta-kualalumpur-2.png" alt="Planta Kualalumpur 2"></div>
+  <div class="planta4"><img src="../assets/flores/planta-kualalumpur-2.png" alt="Planta Kualalumpur 2"></div>
+  <div class="planta5"><img src="../assets/flores/planta-kualalumpur-2.png" alt="Planta Kualalumpur 2"></div>
+  <div class="planta6"><img src="../assets/flores/planta-kualalumpur-3.png" alt="Planta Kualalumpur 3"></div>
+  <div class="planta7"><img src="../assets/flores/planta-kualalumpur-3.png" alt="Planta Kualalumpur 3"></div>
 </template>
 
 <script>
@@ -53,9 +60,86 @@ export default {
     this.isDay = clima.isDay;
 
     this.overlayFile = await getFiltro(this.condicion, this.isDay);
-    this.fondoFile = await getFondo(this.condicion, this.isDay)
-  }
-};
+    this.fondoFile = await getFondo(this.condicion, this.isDay);
+
+  if (typeof gsap !== 'undefined') {
+    gsap.to('.planta1', {
+      rotation: 3,
+      x: 10,
+      duration: 2,
+      repeat: -1,
+      yoyo: true,
+      ease: "sine.inOut"
+    });
+  };
+
+  if (typeof gsap !== 'undefined') {
+    gsap.to('.planta2', {
+      rotation: 3,
+      x: 10,
+      duration: 2.2,
+      repeat: -1,
+      yoyo: true,
+      ease: "sine.inOut"
+    });
+  };
+
+  if (typeof gsap !== 'undefined') {
+    gsap.to('.planta3', {
+      rotation: 3,
+      x: 10,
+      duration: 1.8,
+      repeat: -1,
+      yoyo: true,
+      ease: "sine.inOut"
+    });
+  };
+
+  if (typeof gsap !== 'undefined') {
+    gsap.to('.planta4', {
+      rotation: 3,
+      x: 10,
+      duration: 2.5,
+      repeat: -1,
+      yoyo: true,
+      ease: "sine.inOut"
+    });
+  };
+
+  if (typeof gsap !== 'undefined') {
+    gsap.to('.planta5', {
+      rotation: 3,
+      x: 10,
+      duration: 2.1,
+      repeat: -1,
+      yoyo: true,
+      ease: "sine.inOut"
+    });
+  };
+
+  if (typeof gsap !== 'undefined') {
+    gsap.to('.planta6', {
+      rotation: 3,
+      x: 10,
+      duration: 1.9,
+      repeat: -1,
+      yoyo: true,
+      ease: "sine.inOut"
+    });
+  };
+
+  if (typeof gsap !== 'undefined') {
+    gsap.to('.planta7', {
+      rotation: 3,
+      x: 10,
+      duration: 2.3,
+      repeat: -1,
+      yoyo: true,
+      ease: "sine.inOut"
+    });
+  };
+}
+}
 </script>
 
 <style scoped>
@@ -72,10 +156,53 @@ export default {
   height: 100%;
   width: 100%;
   pointer-events: none;
-  z-index: 5;
+  z-index: 6;
 }
 
 h1 {
   display: none;
+}
+
+.planta1 { 
+  position: absolute;
+  bottom: 6rem;
+  left: 58rem;
+  z-index: 4;
+} 
+.planta2 {
+  position: absolute;
+  bottom: 3rem;
+  left: 45rem;
+  z-index: 4;
+}
+.planta3 {
+  position: absolute;
+  bottom: 10rem;
+  left: 10rem;
+  z-index: 4;
+}
+.planta4 {
+  position: absolute;
+  bottom: 5rem;
+  left: 22rem;
+  z-index: 4;
+}
+.planta5 {
+  position: absolute;
+  bottom: 2rem;
+  left: 70rem;
+  z-index: 4;
+}
+.planta6 {
+  position: absolute;
+  bottom: 8rem;
+  left: 80rem;
+  z-index: 3;
+}
+.planta7 {
+  position: absolute;
+  bottom: 15rem;
+  left: 88rem;
+  z-index: 2;
 }
 </style>

@@ -4,20 +4,16 @@
             "place": "Lleida",
             "plants": [
                 {
-                    "name": "Chenopodium vulvaria inflorescense",
-                    "url": ""
+                    "name": "1",
+                    "url": "planta-lleida-1.png"
                 },
                 {
-                    "name": "Hieracium pilosella",
-                    "url": ""
+                    "name": "2",
+                    "url": "planta-lleida-2.png"
                 },
                 {
-                    "name": "Chenopodium Vulvaria Inflorescense",
-                    "url": ""
-                },
-                {
-                    "name": "Muscari neglectum",
-                    "url": ""
+                    "name": "3",
+                    "url": "planta-lleida-3.png"
                 }
             ]
         },
@@ -25,16 +21,16 @@
             "place": "Ouagadougou",
             "plants": [
                 {
-                    "name": "Palisandro",
-                    "url": ""
+                    "name": "1",
+                    "url": "planta-ouagadougou-1.png"
                 },
                 {
-                    "name": "Rapito peludo",
-                    "url": ""
+                    "name": "2",
+                    "url": "planta-ouagadougou-2.png"
                 },
                 {
-                    "name": "Mijo perla",
-                    "url": ""
+                    "name": "3",
+                    "url": "planta-ouagadougou-3.png"
                 }
             ]
         },
@@ -42,16 +38,16 @@
             "place": "Kuala Lumpur",
             "plants": [
                 {
-                    "name": "Ixora",
-                    "url": ""
+                    "name": "1",
+                    "url": "planta-kualalumpur-1.png"
                 },
                 {
-                    "name": "Margarita rastrera",
-                    "url": ""
+                    "name": "2",
+                    "url": "planta-kualalumpur-2.png"
                 },
                 {
-                    "name": "Albahaca",
-                    "url": ""
+                    "name": "3",
+                    "url": "planta-kualalumpur-3.png"
                 }
             ]
         },
@@ -59,16 +55,16 @@
             "place": "Rio Grande",
             "plants": [
                 {
-                    "name": "Espuela de Caballero",
-                    "url": ""
+                    "name": "1",
+                    "url": "planta-riogrande-1.png"
                 },
                 {
-                    "name": "Brezo",
-                    "url": ""
+                    "name": "2",
+                    "url": "planta-riogrande-2.png"
                 },
                 {
-                    "name": "Singonio",
-                    "url": ""
+                    "name": "3",
+                    "url": "planta-riogrande-3.png"
                 }
             ]
         },
@@ -76,16 +72,16 @@
             "place": "Christchurch",
             "plants": [
                 {
-                    "name": "Espuela de Caballero",
-                    "url": ""
+                    "name": "1",
+                    "url": "planta-christchurch-1.png"
                 },
                 {
-                    "name": "Brezo",
-                    "url": ""
+                    "name": "2",
+                    "url": "planta-christchurch-2.png"
                 },
                 {
-                    "name": "Singonio",
-                    "url": ""
+                    "name": "3",
+                    "url": "planta-christchurch-3.png"
                 }
             ]
         }
