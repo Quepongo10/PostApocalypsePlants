@@ -5,7 +5,7 @@
     <h1>Rio Grande / Argentina</h1>
 
     <Popup title="Rio Grande" :content="`Estado: ${condicion}, ${temperatura}`" />
-    <Popup title="Mente en blanco" :content="`Sé presente y no mires atrás`" :bot="600" :left="1450" />
+    <Popup title="Mente en blanco" :content="`Sé presente y no mires atrás`" :bot="600" :left="1400" />
   </div>
   <div class="planta1"><img src="../assets/flores/planta-riogrande-1.png" alt="Planta Rio Grande 1"></div>
   <div class="planta2"><img src="../assets/flores/planta-riogrande-1.png" alt="Planta Rio Grande 1"></div>
