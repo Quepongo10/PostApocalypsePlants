@@ -25,6 +25,27 @@ import getClima from "../../public/api.js";
 import getFiltro from "../../public/aplicación-filtro.js";
 import getFondo from "../../public/aplicación-fondo.js";
 
+// resolver archivos en build (incluye las imágenes en el bundle y devuelve URL con hash)
+const filtrosMap = import.meta.glob('../assets/filtros/*', { eager: true, as: 'url' });
+const fondosMap  = import.meta.glob('../assets/fondos/*',  { eager: true, as: 'url' });
+
+function filtroUrl(name) {
+  return name ? filtrosMap[`../assets/filtros/${name}`] || null : null;
+}
+function fondoUrl(name) {
+  return name ? fondosMap[`../assets/fondos/${name}`] || null : null;
+}
+
+const filtrosMap = import.meta.glob('../assets/filtros/*', { eager: true, as: 'url' });
+const fondosMap  = import.meta.glob('../assets/fondos/*',  { eager: true, as: 'url' });
+
+function filtroUrl(name) {
+  return filtrosMap[`../assets/filtros/${name}`] || null;
+}
+function fondoUrl(name) {
+  return fondosMap[`../assets/fondos/${name}`] || null;
+}
+
 
 export default {
   components: {Popup },
@@ -42,8 +63,10 @@ export default {
   computed: {
   overlayStyle() {
     if (!this.overlayFile) return {};
+    const url = filtroUrl(this.overlayFile);
+    if (!url) return {};
     return {
-      backgroundImage: `url('./src/assets/filtros/${this.overlayFile}')`,
+      backgroundImage: `url(${url})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       mixBlendMode: 'overlay'
@@ -52,8 +75,10 @@ export default {
 
   fondoStyle() {
     if (!this.fondoFile) return {};
+    const url = fondoUrl(this.fondoFile);
+    if (!url) return {};
     return {
-      backgroundImage: `url('./src/assets/fondos/${this.fondoFile}')`,
+      backgroundImage: `url(${url})`,
     };
   },
   },
