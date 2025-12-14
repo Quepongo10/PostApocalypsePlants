@@ -17,7 +17,6 @@
 <script>
 import Popup from "../components/Popups.vue";
 import getClima from "../../public/api.js";
-import temperatura from "../components/temperatura.vue";
 import getFiltro from "../../public/aplicación-filtro.js";
 import getFondo from "../../public/aplicación-fondo.js";
 
