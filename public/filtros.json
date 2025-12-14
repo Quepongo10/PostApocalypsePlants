@@ -168,8 +168,26 @@
         "archivo": "efectos-pantalla-tormenta-dia.png",
         "fondo": "fondo-tormenta-dia.gif"
         },
+        {
+        "tiempo": "Tormenta eléctrica",
+        "estado": "Día",
+        "archivo": "efectos-pantalla-tormenta-dia.png",
+        "fondo": "fondo-tormenta-dia.gif"
+        },
+        {
+        "tiempo": "Tormenta con granizo",
+        "estado": "Día",
+        "archivo": "efectos-pantalla-tormenta-dia.png",
+        "fondo": "fondo-tormenta-dia.gif"
+        },
+        {
+        "tiempo": "Tormenta severa con granizo",
+        "estado": "Día",
+        "archivo": "efectos-pantalla-tormenta-dia.png",
+        "fondo": "fondo-tormenta-dia.gif"
+        },
         
-       {
+        {
         "tiempo": "Chubascos ligeros",
         "estado": "Noche",
         "archivo": "efectos-pantalla-tormenta-noche.png",
@@ -183,6 +201,24 @@
         },
         {
         "tiempo": "Chubascos violentos",
+        "estado": "Noche",
+        "archivo": "efectos-pantalla-tormenta-noche.png",
+        "fondo": "fondo-tormenta-noche.gif"
+        },
+        {
+        "tiempo": "Tormenta eléctrica",
+        "estado": "Noche",
+        "archivo": "efectos-pantalla-tormenta-noche.png",
+        "fondo": "fondo-tormenta-noche.gif"
+        },
+        {
+        "tiempo": "Tormenta con granizo",
+        "estado": "Noche",
+        "archivo": "efectos-pantalla-tormenta-noche.png",
+        "fondo": "fondo-tormenta-noche.gif"
+        },
+        {
+        "tiempo": "Tormenta severa con granizo",
         "estado": "Noche",
         "archivo": "efectos-pantalla-tormenta-noche.png",
         "fondo": "fondo-tormenta-noche.gif"
