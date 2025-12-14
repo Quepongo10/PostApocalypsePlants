@@ -3,7 +3,8 @@
 
   <div class="fondo" :style="fondoStyle">
     <h1>Kuala Lumpur / Malasia</h1>
-    <Popup title="Kuala Lumpur" :content="`Estado: ${condicion}, ${temperatura}`" />
+    <Popup title="Kuala Lumpur" :content="`Estado: ${condicion}, ${temperatura}`" :bot="0" :left="0" />
+    <Popup title="Calma" :content="`Respira hondo`" :bot="600" :left="50" />
   </div>
   <div class="planta1"><img src="../assets/flores/planta-kualalumpur-1.png" alt="Planta Kualalumpur 1"></div>
   <div class="planta2"><img src="../assets/flores/planta-kualalumpur-1.png" alt="Planta Kualalumpur 1"></div>
