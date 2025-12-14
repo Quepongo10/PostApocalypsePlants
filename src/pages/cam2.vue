@@ -4,7 +4,7 @@
     <h1>Ouagadougou / Burkina Faso</h1>
 
     <Popup title="Ouagadougou" :content="`Estado: ${condicion}, ${temperatura}`" :bot="0" :left="0" />
-    <Popup title="Ouagadougou" :content="`Estado: ${condicion}, ${temperatura}`" :bot="500" :left="1000" />
+    <Popup title="Tranquilo/a" :content="'Tómate tu tiempo no hay prisa'" :bot="0" :left="1000" />
   </div>
   <div class="planta1"><img src="../assets/flores/planta-ouagadougou-1.png" alt="Planta ouagadougou 1"></div>
   <div class="planta2"><img src="../assets/flores/planta-ouagadougou-1.png" alt="Planta ouagadougou 1"></div>

@@ -4,10 +4,11 @@
   <div class="fondo" :style="fondoStyle">
     <h1>Lleida / España</h1>
 
-    <Popup title="Lleida" :content="`Estado: ${condicion}, ${temperatura}`" :bot="500" :left="300" />
-    <Popup title="Lleida" :content="`Estado: ${condicion}, ${temperatura}`" :bot="450" :left="320" />
-    <Popup title="Lleida" :content="`Estado: ${condicion}, ${temperatura}`" :bot="400" :left="340" />
-    <Popup title="Lleida" :content="`Estado: ${condicion}, ${temperatura}`" :bot="350" :left="360" />
+    <Popup title="Lleida" :content="`Estado: ${condicion}, ${temperatura}`" :bot="745" :left="340" />
+    <Popup title="Lleida" :content="`Estado: ${condicion}, ${temperatura}`" :bot="700" :left="360" />
+    <Popup title="Lleida" :content="`Estado: ${condicion}, ${temperatura}`" :bot="650" :left="380" />
+    <Popup title="Lleida" :content="`Estado: ${condicion}, ${temperatura}`" :bot="600" :left="400" />
+    <Popup title="Hola" :content="'Cómo te encuentras hoy?'" :bot="0" :left="0" />
   </div>
   <div class="planta1"><img src="../assets/flores/planta-lleida-1.png" alt="Planta Lleida 1"></div>
   <div class="planta2"><img src="../assets/flores/planta-lleida-1.png" alt="Planta Lleida 1"></div>
