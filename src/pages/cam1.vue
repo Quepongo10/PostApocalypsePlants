@@ -36,16 +36,6 @@ function fondoUrl(name) {
   return name ? fondosMap[`../assets/fondos/${name}`] || null : null;
 }
 
-const filtrosMap = import.meta.glob('../assets/filtros/*', { eager: true, as: 'url' });
-const fondosMap  = import.meta.glob('../assets/fondos/*',  { eager: true, as: 'url' });
-
-function filtroUrl(name) {
-  return filtrosMap[`../assets/filtros/${name}`] || null;
-}
-function fondoUrl(name) {
-  return fondosMap[`../assets/fondos/${name}`] || null;
-}
-
 
 export default {
   components: {Popup },
