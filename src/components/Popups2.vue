@@ -54,11 +54,13 @@ const popupStyle = computed(() => {
 h1 {
     font-size: 20px;
     margin-top: 15px;
+    color: white;
 }
 
 p {
     font-size: 16px;
     margin: 0px 5px 0px 5px;
+    color: white;
 }
 
 #deco {
